@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaynan's Jacket</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+<!-- FAKE SPONSORED ADS -->
+<aside class="ad-sidebar">
+  <img
+    src="assets/Chumbox.png"
+    alt="Parody sponsored advertisements"
+  >
+</aside>
+
+
+  <main>
+
+    <!-- LOGO -->
+    <header>
+      <img src="assets/Logo.png" alt="Kaynan's Jacket" class="logo">
+    </header>
+
+    <!-- INTRO -->
+    <section class="intro">
+      <p>Meeting @ 3pm Mon 9th Novemeber </p>
+      <a href="https://meet.google.com/sey-iekj-rig" target="_blank" rel="noopener noreferrer">
+  Google Meet Link
+</a>
+    </section>
+
+    <!-- QUESTIONS -->
+    <section class="questions">
+      <h2>Questions I have:</h2>
+
+      <p>
+        1. Is this jacket for everyday, or<br>
+        something/somewhere specific?<br>
+        Do you want to stand out or blend in?
+      </p>
+
+      <p>2. Is this one of one?</p>
+      <p>3. When do you need this by?</p>
+    </section>
+
+    <!-- INSPIRATION -->
+    <section class="inspiration">
+      <h2>Possible Inspiration?</h2>
+
+      <div class="carousel">
+
+        <button class="arrow prev" aria-label="Previous images">
+          &#10094;
+        </button>
+
+        <div class="carousel-window">
+          <div class="carousel-track" id="carouselTrack"></div>
+        </div>
+
+        <button class="arrow next" aria-label="Next images">
+          &#10095;
+        </button>
+
+      </div>
+    </section>
+
+
+
+
+
+<!-- IMAGE TREATMENTS -->
+<section class="final-section treatments">
+
+  <h2>Image Treatments</h2>
+
+  <div class="treatment-grid">
+
+    <div class="treatment-item">
+      <img src="assets/NoContext.png" alt="Removal of Context">
+      <p>1. Removal of Context</p>
+    </div>
+
+    <div class="treatment-item">
+      <img src="assets/Stretch.png" alt="Stretching">
+      <p>2. Stretching</p>
+    </div>
+
+    <div class="treatment-item">
+      <img src="assets/Deep-Fry.png" alt="Deep-Frying">
+      <p>3. Deep-Frying</p>
+    </div>
+
+    <div class="treatment-item">
+      <img src="assets/Blend.png" alt="Blending Images">
+      <p>4. Blending Images</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+</section>
+
+
+<!-- PRINTING OPTIONS -->
+<section class="final-section last-section">
+
+  <h2>
+    Getting design onto Jacket<br>
+    Options:
+  </h2>
+
+  <p>
+    1. Vinyl/Heat-press<br>
+    2. Screen-Printing<br>
+    3. Embroidered
+  </p>
+
+</section>
+
+
+  </main>
+
+  
+<!-- IMAGE ENLARGEMENT -->
+<div class="lightbox" id="lightbox">
+
+  <div class="lightbox-controls">
+
+    <button id="zoomButton" aria-label="Zoom image">
+      <svg viewBox="0 0 24 24" width="32" height="32"
+           fill="none" stroke="currentColor"
+           stroke-width="2.5" stroke-linecap="round">
+        <circle cx="10.5" cy="10.5" r="6.5"/>
+        <path d="M16 16 L22 22"/>
+        <path d="M10.5 7.5 V13.5"/>
+        <path d="M7.5 10.5 H13.5"/>
+      </svg>
+    </button>
+
+    <button class="close" id="closeLightbox"
+            aria-label="Close image">
+      &times;
+    </button>
+
+  </div>
+
+  <div class="lightbox-image-container">
+    <img id="largeImage" src="" alt="Enlarged inspiration">
+  </div>
+
+</div>
+
+
+  <script src="sketch.js"></script>
+</body>
+</html>
